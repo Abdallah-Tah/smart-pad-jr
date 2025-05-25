@@ -13,9 +13,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 antialiased">
+<body class="min-h-screen bg-gradient-to-br from-blue-500 to-purple-500 antialiased">
     <!-- Nav Bar -->
-    <nav class="bg-white/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-100">
+    <nav class="bg-white/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
