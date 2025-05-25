@@ -9,7 +9,7 @@ class SketchBoard extends Component
     public bool $isEmbedded = false; // Whether the sketch board is embedded in another component
     public string $canvasId; // Unique ID for the canvas element
     public string $width = '100%';
-    public string $height = '400px';
+    public string $height = '60vh'; // Dynamic height based on viewport
 
     public function mount($isEmbedded = false, $canvasId = null)
     {
